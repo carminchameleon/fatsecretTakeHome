@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		F057AC592ADE95A70070E53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC582ADE95A70070E53E /* AppDelegate.swift */; };
 		F057AC5B2ADE95A70070E53E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC5A2ADE95A70070E53E /* SceneDelegate.swift */; };
-		F057AC5D2ADE95A70070E53E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC5C2ADE95A70070E53E /* ViewController.swift */; };
-		F057AC602ADE95A70070E53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F057AC5E2ADE95A70070E53E /* Main.storyboard */; };
+		F057AC5D2ADE95A70070E53E /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC5C2ADE95A70070E53E /* CountryViewController.swift */; };
 		F057AC622ADE95A90070E53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F057AC612ADE95A90070E53E /* Assets.xcassets */; };
 		F057AC652ADE95A90070E53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F057AC632ADE95A90070E53E /* LaunchScreen.storyboard */; };
+		F057AC712ADE99FA0070E53E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC702ADE99FA0070E53E /* Constants.swift */; };
+		F057AC732ADE9F180070E53E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC722ADE9F180070E53E /* Theme.swift */; };
+		F057AC752ADEA17D0070E53E /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC742ADEA17D0070E53E /* CountryTableViewCell.swift */; };
+		F057AC782ADEA32A0070E53E /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC772ADEA32A0070E53E /* CountryViewModel.swift */; };
+		F057AC7A2ADEA9120070E53E /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC792ADEA9120070E53E /* Symbols.swift */; };
+		F057AC7D2ADEC5240070E53E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC7C2ADEC5240070E53E /* SettingViewController.swift */; };
+		F057AC7F2ADECFED0070E53E /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057AC7E2ADECFED0070E53E /* SettingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F057AC552ADE95A70070E53E /* FatSecretTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatSecretTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F057AC582ADE95A70070E53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F057AC5A2ADE95A70070E53E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F057AC5C2ADE95A70070E53E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F057AC5F2ADE95A70070E53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F057AC5C2ADE95A70070E53E /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 		F057AC612ADE95A90070E53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F057AC642ADE95A90070E53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F057AC662ADE95A90070E53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F057AC702ADE99FA0070E53E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F057AC722ADE9F180070E53E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F057AC742ADEA17D0070E53E /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		F057AC772ADEA32A0070E53E /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		F057AC792ADEA9120070E53E /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		F057AC7C2ADEC5240070E53E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F057AC7E2ADECFED0070E53E /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		F057AC572ADE95A70070E53E /* FatSecretTakeHome */ = {
 			isa = PBXGroup;
 			children = (
+				F057AC6F2ADE99EB0070E53E /* Helpers */,
+				F057AC7B2ADEC1140070E53E /* Views */,
+				F057AC762ADEA31D0070E53E /* ViewModels */,
 				F057AC582ADE95A70070E53E /* AppDelegate.swift */,
 				F057AC5A2ADE95A70070E53E /* SceneDelegate.swift */,
-				F057AC5C2ADE95A70070E53E /* ViewController.swift */,
-				F057AC5E2ADE95A70070E53E /* Main.storyboard */,
 				F057AC612ADE95A90070E53E /* Assets.xcassets */,
 				F057AC632ADE95A90070E53E /* LaunchScreen.storyboard */,
 				F057AC662ADE95A90070E53E /* Info.plist */,
 			);
 			path = FatSecretTakeHome;
+			sourceTree = "<group>";
+		};
+		F057AC6F2ADE99EB0070E53E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F057AC702ADE99FA0070E53E /* Constants.swift */,
+				F057AC722ADE9F180070E53E /* Theme.swift */,
+				F057AC792ADEA9120070E53E /* Symbols.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F057AC762ADEA31D0070E53E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F057AC772ADEA32A0070E53E /* CountryViewModel.swift */,
+				F057AC7E2ADECFED0070E53E /* SettingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F057AC7B2ADEC1140070E53E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F057AC5C2ADE95A70070E53E /* CountryViewController.swift */,
+				F057AC742ADEA17D0070E53E /* CountryTableViewCell.swift */,
+				F057AC7C2ADEC5240070E53E /* SettingViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +169,6 @@
 			files = (
 				F057AC652ADE95A90070E53E /* LaunchScreen.storyboard in Resources */,
 				F057AC622ADE95A90070E53E /* Assets.xcassets in Resources */,
-				F057AC602ADE95A70070E53E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F057AC5D2ADE95A70070E53E /* ViewController.swift in Sources */,
+				F057AC752ADEA17D0070E53E /* CountryTableViewCell.swift in Sources */,
+				F057AC7A2ADEA9120070E53E /* Symbols.swift in Sources */,
+				F057AC5D2ADE95A70070E53E /* CountryViewController.swift in Sources */,
 				F057AC592ADE95A70070E53E /* AppDelegate.swift in Sources */,
+				F057AC732ADE9F180070E53E /* Theme.swift in Sources */,
+				F057AC7F2ADECFED0070E53E /* SettingViewModel.swift in Sources */,
+				F057AC7D2ADEC5240070E53E /* SettingViewController.swift in Sources */,
 				F057AC5B2ADE95A70070E53E /* SceneDelegate.swift in Sources */,
+				F057AC782ADEA32A0070E53E /* CountryViewModel.swift in Sources */,
+				F057AC712ADE99FA0070E53E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F057AC5E2ADE95A70070E53E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F057AC5F2ADE95A70070E53E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F057AC632ADE95A90070E53E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +337,6 @@
 				INFOPLIST_FILE = FatSecretTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +364,6 @@
 				INFOPLIST_FILE = FatSecretTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
